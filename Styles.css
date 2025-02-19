@@ -1,0 +1,150 @@
+/* Estilos gerais da página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('/mnt/data/01_1_engenharia_civil_servicos_PRINCIPAL.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Adicionando uma camada para melhorar a legibilidade */
+.overlay {
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilização do cabeçalho e rodapé */
+header, footer {
+    background-color: #ff8c00;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-contacts a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header-contacts a:hover {
+    color: #fbc387;
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fbc387;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 40px;
+}
+
+/* Seções com sombra e bordas arredondadas */
+.section {
+    margin-top: 30px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Lista de produtos com imagens e descrições */
+.product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Botões de contato */
+.contact a {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.contact a:hover {
+    background: #218838;
+    transform: scale(1.1);
+}
+
+/* Estilos do rodapé */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    padding: 15px 50px;
+}
